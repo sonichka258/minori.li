@@ -1,0 +1,181 @@
+body {
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    margin: 0 auto;
+    width: 1720px;
+
+}
+/*Header*/
+.header {
+    padding: 41px 0;
+    border-bottom: 2px #779611 solid;
+}
+.header-container {
+    display: flex;
+    height: 120px;
+    align-items: center;
+}
+.header-logo {
+    font-size: 32px;
+    font-family: "Exo 2", sans-serif;
+    color: #779611;
+    font-weight: 600;
+    padding-left: 100px;
+}
+.header-list {
+    display: flex;
+    gap: 80px;
+}
+.header-link {
+    color: #707070;
+    font-weight: 500;
+    padding-left: 100px;
+}
+/*Перша секція*/
+.first {
+    border-bottom: 2px #779611 solid;
+}
+.first-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first-title {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #779611;
+    margin-bottom: 50px;
+    padding-left: 100px;
+}
+.first-text {
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+    margin: 50px;
+    padding-left: 50px;
+}
+.first-link {
+    display: inline-block;
+    border-radius: 40px;
+    padding: 18px 70px;
+    background: #779611;
+    color: #f9f9f9;
+    font-weight: 400;
+    font-size: 32px;
+    margin-left: 100px;
+}
+.first-img {
+    padding-right: 137px;
+}
+/*Друга та третя секція*/
+.Shop-flaves,
+.Subscription {
+    padding-top: 80px;
+}
+.flaves-title,
+.Subscription-title {
+    font-size: 36px;
+    color: #779611;
+    font-weight: 600;
+    margin-bottom: 35px;
+    font-family: "Exo 2", sans-serif;
+}
+.flaves-text,
+.Subscription-text {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 55px;
+}
+.flaves-list,
+.Subscription-list {
+    display: flex;
+    gap: 20px;
+}
+.flaves-desc,
+.Subscription-desc {
+    font-size: 24px;
+    color: #779611;
+    font-weight: 400;
+    margin: 35px 0 20px 60px;
+    padding-right: 460px;
+}
+.flaves-tx,
+.Subscription-tx {
+    margin-left: 60px;
+    padding-right: 450px;
+}
+.Subscription {
+    margin-bottom: 80px;
+}
+/*Четверта секція*/
+.about {
+    border-top: solid #779611 2px;
+    border-bottom: #779611;
+    padding: 114px 0;
+}
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 455px;
+}
+.about-us {
+    color: #779611;
+    font-size: 24px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 500;
+    margin-bottom: 50px;
+    padding-left: 100px;
+}
+.about-title {
+    color: #779611;
+    font-size: 48px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+}
+.about-text {
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+.about-img {
+        padding-right: 137px;
+}
+/*Футер*/
+.footer {
+    padding: 60px 0;
+    border-top: solid #779611 2px;
+    border-bottom: #779611;
+}
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+}
+.footer-text,
+.footer-link {
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 20px;
+    display: inline-block;
+}
